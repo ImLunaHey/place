@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "npm run build && npx tsx ./src/server.ts"
+    "start": "npm run build && NODE_ENV=production npx tsx ./src/server.tsx"
   },
   "dependencies": {
     "@atcute/bluesky": "^1.0.14",
