@@ -106,7 +106,7 @@ app.get('/*', (c, next) => {
 
 serve({
   fetch: app.fetch,
-  port: 8787,
+  port: process.env.PORT ? parseInt(process.env.PORT) : 8787,
 });
 
-console.info('Server is running on port 8787');
+console.info(`Server is running on port ${process.env.PORT}`);

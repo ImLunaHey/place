@@ -22,7 +22,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
 
-    "types": ["@atcute/bluesky/lexicons"]
+    "types": ["@atcute/bluesky/lexicons", "@types/node"]
   },
   "include": ["src"]
 }
